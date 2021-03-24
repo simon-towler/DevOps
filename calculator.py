@@ -6,7 +6,7 @@ ops = {
     '+' : operator.add,
     '-' : operator.sub,
     'x' : operator.mul,
-    '/' : operator.div
+    '%' : operator.mod
 }
 
 input_file = open("instructions_file.txt")
