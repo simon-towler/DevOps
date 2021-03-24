@@ -8,6 +8,7 @@ ops = {
     'x' : operator.mul,
     '/' : operator.div
     "^" : operator.pow
+    '%' : operator.mod
 }
 
 input_file = open("instructions_file.txt")
